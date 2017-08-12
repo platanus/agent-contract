@@ -1,0 +1,33 @@
+{
+  "contract_name": "DummyDestination",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "method1",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "payable": true,
+      "type": "fallback"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "origin",
+          "type": "address"
+        }
+      ],
+      "name": "ReceivedMethod1",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x606060405234610000575b60af806100186000396000f3006060604052361560235763ffffffff60e060020a6000350416635aee94318114602b575b60295b5b565b005b3460005760296037565b005b6040805173ffffffffffffffffffffffffffffffffffffffff3316815290517ffae9206a9f8598ec2348a3e580d0ce7c6cb44ce78f834c29972426bfb3f6f3459181900360200190a15b5600a165627a7a72305820868879720c0bc9d8fccc7845315c92859f8e40b9e35aba5df94f75b893a72a0b0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1502488508548
+}
