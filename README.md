@@ -25,4 +25,4 @@ Start the testrpc emulator at port 8001
 
 Run the specs
 
-`truffle test`
+`truffle test --network test`
